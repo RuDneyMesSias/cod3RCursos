@@ -1,0 +1,33 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# arquivo EditorConfig mais alto
+root = true
+
+# Novas linhas no estilo Unix com uma nova linha terminando cada arquivo
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Corresponde a vários arquivos com notação de expansão de chaves
+# Definir conjunto de caracteres padrão
+[*.{js,py}]
+charset = utf-8
+
+# 4 recuo de espaço
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Recuo de tabulação (sem tamanho especificado)
+[Makefile]
+indent_style = tab
+
+# Substituição de recuo para todos os JS no diretório lib
+[lib/**.js]
+indent_style = space
+indent_size = 2
+
+# Corresponde aos arquivos exatos package.json ou .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
