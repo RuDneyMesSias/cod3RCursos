@@ -12,6 +12,14 @@ Versionamento: GitFlow
 --> Seção 7:[x] JavaScript: Objeto
 --> Seção 8:[X] javaScript: Array
 
+Também chamado de vetor, matriz ou arranjo, o array é a mais comum das estruturas de dados. Um array é uma lista ordenada de valores.
+
+    As estruturas de dados podem ser:
+
+    -> lineares (ex. arrays) ou não lineares (ex. grafos);
+    -> homogêneas (todos os dados que compõe a estrutura são do mesmo tipo) ou heterogêneas (podem conter dados de vários tipos);
+    -> estáticas (têm tamanho/capacidade de memória fixa) ou dinâmicas (podem expandir).
+
     -   Array: Visão Geral
     -   Array: Métodos Importantes
     -   Simulando Array com Objeto

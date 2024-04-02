@@ -11,6 +11,18 @@ Versionamento: GitFlow
 --> Seção 6:[x] JavaScript: Função
 --> Seção 7:[x] JavaScript: Objeto
 
+    uma coleção de propriedades, e uma propriedade é uma associação entre um nome (ou chave) e um valor; As propriedades de um objeto definem as características do objeto. Você acessa as propriedades de um objeto com uma simples notação de ponto.
+
+    Propriedades de objetos em JavaScript podem também ser acessadas ou alteradas usando-se notação de colchetes.
+
+    Começando com a ECMAScript 5, há três formas nativas de se listar (ou "caminhar por") as propriedades de um objeto:
+
+        -> for...in (en-US) loops Esse método caminha por todas as propriedades enumeráveis de um objeto e sua cadeia de protótipos
+        
+        -> Object.keys(o) (en-US) Esse método retorna um array com todos os nomes ("chaves") de propriedades próprios de um objeto o (mas não na cadeia de protótipos).
+
+        -> Object.getOwnPropertyNames(o) (en-US) Esse método retorna um array contendo todos os nomes de propriedades próprios (enumeráveis ou não) de um objeto o.
+
     -   Orientação a Objeto
     -   Revisão sobre Objeto
     -   Estratégias de Criação de Objetos
